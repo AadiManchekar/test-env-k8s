@@ -8,10 +8,13 @@ To create an ideal test environment, you must have infra components to be up alw
 Some Core infra components can be:
 
  1. Kafka/RabbitMQ
- 2. Nginx (As a 
+ 2. Nginx (Serve https/gRPC/wss requests)
  3. Postgresql/Mysql (To store SQL data)
- 4. Cassandra (To store No SQL data)
+ 4. neo4j (GraphDB)
+ 5. Cassandra (To store No SQL data)
+ 6. Spark (if you are processing some data)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTQ5Mjk2NSwtMTcyMDA3MDg2NF19
+eyJoaXN0b3J5IjpbLTc5NDMzNTk5OSwxNzI5NDkyOTY1LC0xNz
+IwMDcwODY0XX0=
 -->
