@@ -18,12 +18,12 @@ Some Core infra components can be:
 We need to create instance group so that it can scale up/down the worker nodes. 
 
 **Why arent we using GKE?**
--- I agree GKE provides, automatically updates of Kubernetes control plane, node auto-repair, auto scaling, auto security patches etc.  But the main thing is, many enterprise have their custom base images, they want control over the base infrastrucre  and morever we want to handle
+-- I agree GKE provides, automatically updates of Kubernetes control plane, node auto-repair, auto scaling, auto security patches etc.  But the main thing is, many enterprise have their custom base images, they want control over the base infrastructure, choice of Kubernetes versions, networking setups, and node provisioning
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzYwNDY1LC05MTI4NTQ1MzIsMTE5MD
+eyJoaXN0b3J5IjpbOTI3NzE1OTUxLC05MTI4NTQ1MzIsMTE5MD
 QxNzEzNSwtODQ1ODAzMjgsLTc5NDMzNTk5OSwxNzI5NDkyOTY1
 LC0xNzIwMDcwODY0XX0=
 -->
