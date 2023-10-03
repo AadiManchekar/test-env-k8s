@@ -14,7 +14,9 @@ Some Core infra components can be:
  5. Cassandra (To store No SQL data)
  6. Spark (if you are processing some data)
 
+    enter code here
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDMzNTk5OSwxNzI5NDkyOTY1LC0xNz
-IwMDcwODY0XX0=
+eyJoaXN0b3J5IjpbLTg0NTgwMzI4LC03OTQzMzU5OTksMTcyOT
+Q5Mjk2NSwtMTcyMDA3MDg2NF19
 -->
