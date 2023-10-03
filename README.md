@@ -15,15 +15,18 @@ Some Core infra components can be:
  6. Redis (Cache)
  7. Spark (if you are processing some data)
 
+## Other Configurations
+
 We need to create instance group so that it can scale up/down the worker nodes. 
 
 **Why arent we using GKE?**
 -- I agree GKE provides, automatically updates of Kubernetes control plane, node auto-repair, auto scaling, auto security patches etc.  But the main thing is, many enterprise have their custom base images, they want control over the base infrastructure, choice of Kubernetes versions, networking setups, and node provisioning. managing your own cluster allows you to choose and configure different storage solutions, including network-attached storage (NAS) or distributed file systems. The most important thing is you have more granular control over the costs associated with VM instances, storage, and network resources
 
+•Ingress is used to expose Services to outside of cluster. Ingress is not a Service type, but it acts as an entry point for your cluster. It lets consolidation of routing rules into a single resource as it can expose multiple services under the same IP address.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAzOTE4LC05MTI4NTQ1MzIsMTE5MD
-QxNzEzNSwtODQ1ODAzMjgsLTc5NDMzNTk5OSwxNzI5NDkyOTY1
-LC0xNzIwMDcwODY0XX0=
+eyJoaXN0b3J5IjpbMTE4NTEzOTE4OCwtMTAzMDM5MTgsLTkxMj
+g1NDUzMiwxMTkwNDE3MTM1LC04NDU4MDMyOCwtNzk0MzM1OTk5
+LDE3Mjk0OTI5NjUsLTE3MjAwNzA4NjRdfQ==
 -->
