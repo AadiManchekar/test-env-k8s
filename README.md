@@ -18,12 +18,12 @@ Some Core infra components can be:
 We need to create instance group so that it can scale up/down the worker nodes. 
 
 **Why arent we using GKE?**
--- So the main thing, many enterprise have their custom base images and morever we want to handle
+-- I agree GKE provides, So the main thing, many enterprise have their custom base images and morever we want to handle
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjg1NDUzMiwxMTkwNDE3MTM1LC04ND
-U4MDMyOCwtNzk0MzM1OTk5LDE3Mjk0OTI5NjUsLTE3MjAwNzA4
-NjRdfQ==
+eyJoaXN0b3J5IjpbLTU5MzU1NjU5NiwtOTEyODU0NTMyLDExOT
+A0MTcxMzUsLTg0NTgwMzI4LC03OTQzMzU5OTksMTcyOTQ5Mjk2
+NSwtMTcyMDA3MDg2NF19
 -->
