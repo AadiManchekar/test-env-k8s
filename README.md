@@ -12,11 +12,11 @@ Some Core infra components can be:
  3. Postgresql/Mysql (To store SQL data)
  4. neo4j (GraphDB)
  5. Cassandra (To store No SQL data)
- 6. Spark (if you are processing some data)
+ 6. Redis 
+ 7. Spark (if you are processing some data)
 
-    enter code here
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTgwMzI4LC03OTQzMzU5OTksMTcyOT
-Q5Mjk2NSwtMTcyMDA3MDg2NF19
+eyJoaXN0b3J5IjpbMTE5MDQxNzEzNSwtODQ1ODAzMjgsLTc5ND
+MzNTk5OSwxNzI5NDkyOTY1LC0xNzIwMDcwODY0XX0=
 -->
