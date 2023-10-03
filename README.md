@@ -11,12 +11,16 @@ Some Core infra components can be:
  2. Nginx (Serve https/gRPC/wss requests)
  3. Postgresql/Mysql (To store SQL data)
  4. neo4j (GraphDB)
- 5. Cassandra (To store No SQL data)
- 6. Redis 
+ 5. Cassandra/ Scylladb (To store No SQL data)
+ 6. Redis (Cache)
  7. Spark (if you are processing some data)
+
+We need to create instance group so that it can scale up/down the worker nodes,
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDQxNzEzNSwtODQ1ODAzMjgsLTc5ND
-MzNTk5OSwxNzI5NDkyOTY1LC0xNzIwMDcwODY0XX0=
+eyJoaXN0b3J5IjpbLTQ3MzMyODkxNiwxMTkwNDE3MTM1LC04ND
+U4MDMyOCwtNzk0MzM1OTk5LDE3Mjk0OTI5NjUsLTE3MjAwNzA4
+NjRdfQ==
 -->
