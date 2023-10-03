@@ -15,12 +15,15 @@ Some Core infra components can be:
  6. Redis (Cache)
  7. Spark (if you are processing some data)
 
-We need to create instance group so that it can scale up/down the worker nodes,
+We need to create instance group so that it can scale up/down the worker nodes. 
+
+**Why arent we using GKE?**
+-- So the main thing, many enterprise have their custom base images and morever we want to handle
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MzMyODkxNiwxMTkwNDE3MTM1LC04ND
+eyJoaXN0b3J5IjpbLTkxMjg1NDUzMiwxMTkwNDE3MTM1LC04ND
 U4MDMyOCwtNzk0MzM1OTk5LDE3Mjk0OTI5NjUsLTE3MjAwNzA4
 NjRdfQ==
 -->
